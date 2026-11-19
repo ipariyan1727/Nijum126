@@ -15,8 +15,8 @@ async function safeStream(url) {
 // ================== 🎥/🖼️ MEDIA ROTATION SYSTEM ==================
 // এখানে আপনি ২টি ভিডিও, ২টি পিক, ২টি GIF অথবা ১টি পিক ও ১টি ভিডিও মিক্স করে বসাতে পারবেন
 const mediaLinks = [
-  "https://files.catbox.moe/lyppld.mp4",
-  "https://files.catbox.moe/4cct1h.jpg"
+  "https://files.catbox.moe/byomvh.jpg",
+  "https://files.catbox.moe/byomvh.jpg"
 ];
 
 const countFile = path.join(__dirname, "owner_media_count.json");
@@ -58,8 +58,8 @@ module.exports = {
   },
 
   onStart: async function ({ message }) {
-    const ownerFB1 = "https://www.facebook.com/share/14k1GZFVH2T/";
-    const ownerFB2 = "https://www.facebook.com/share/14k1GZFVH2T/";
+    const ownerFB1 = "https://www.facebook.com/profile.php?id=61595491297855";
+    const ownerFB2 = "https://www.facebook.com/profile.php?id=61595491297855";
 
     // 🔄 Auto Media Changer (Video/Photo/GIF)
     const mediaUrl = getNextMedia();
@@ -72,8 +72,8 @@ module.exports = {
       body: `───────────────
 » 👑 𝗢𝗪𝗡𝗘𝗥 𝗜𝗡𝗙𝗢 👑
 ───────────────
-» 👤 𝗢𝗪𝗡𝗘𝗥 ➜ 𝆠፝𝐒𝐈𝐘𝐀𝐌-𝐇𝐀𝐒𝐀𝐍
-» 🏠 𝗔𝗗𝗗𝗥𝗘𝗦𝗦: 𝗞𝗜𝗦𝗛𝗢𝗥𝗘𝗚𝗔𝗡𝗝
+» 👤 𝗢𝗪𝗡𝗘𝗥 ➜ 𝐈𝐏 𝐀𝐑𝐈𝐘𝐀𝐍
+» 🏠 𝗔𝗗𝗗𝗥𝗘𝗦𝗦: 𝐓𝐀𝐍𝐆𝐀𝐈𝐋
 » 🕋 𝗥𝗘𝗟𝗜𝗚𝗜𝗢𝗡: 𝗜𝗦𝗟𝗔𝗠
 » 🚻 𝗚𝗘𝗡𝗗𝗘𝗥: 𝗠𝗔𝗟𝗘
 » 💞   𝗥𝗘𝗟𝗔𝗧𝗜𝗢𝗡𝗦𝗛𝗜𝗣: 𝗦𝗜𝗡𝗚𝗟𝗘
@@ -82,13 +82,13 @@ module.exports = {
 » 📅 𝗗𝗮𝘁𝗲: ${date}
 » ⏰ 𝗧𝗶𝗺𝗲: ${time}
 ───────────────
-» 📞 𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣: https://wa.me/+8801789138157
+» 📞 𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣: https://wa.me/+𝟗𝟔𝟔𝟓𝟕𝟐𝟑𝟕𝟑𝟔𝟗𝟑
 » 🔗 𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞 𝟭: ${ownerFB1}
 » 🔗 𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞 𝟮: ${ownerFB2}
 ───────────────
 » 📝 আরো দেখতে লিখুন: ,owner2
 ───────────────
-👑 𝗢𝗪𝗡𝗘𝗥 ➜ 𝆠፝𝐒𝐈𝐘𝐀𝐌-𝐇𝐀𝐒𝐀𝐍 👑`
+👑 𝗢𝗪𝗡𝗘𝗥 ➜ 𝐈𝐏+𝐀𝐑𝐈𝐘𝐀𝐍 👑`
     };
 
     if (attachment) {
