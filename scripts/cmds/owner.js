@@ -58,8 +58,8 @@ module.exports = {
   },
 
   onStart: async function ({ message }) {
-    const ownerFB1 = "https://www.facebook.com/profile.php?id=61595491297855";
-    const ownerFB2 = "https://www.facebook.com/profile.php?id=61595491297855";
+    const ownerFB1 = "https://www.facebook.com/profile.php?id=61596454813127";
+    const ownerFB2 = "https://www.facebook.com/profile.php?id=61596454813127";
 
     // 🔄 Auto Media Changer (Video/Photo/GIF)
     const mediaUrl = getNextMedia();
