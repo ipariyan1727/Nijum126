@@ -31,7 +31,7 @@ module.exports = {
       hour12: true
     });
 
-    const message = `» 👑 𝐒𝐈𝐘𝐀𝐌-𝐇𝐀𝐒𝐀𝐍 👑
+    const message = `» 👑 𝐈𝐏-𝐀𝐑𝐈𝐘𝐀𝐍 👑
 ───────────────
 » 📅 ${date}
 » ⏰ ${time}
@@ -46,7 +46,7 @@ module.exports = {
     } catch (error) {
       console.error(error);
       
-      const errorMsg = `» 👑 𝐒𝐈𝐘𝐀𝐌-𝐇𝐀𝐒𝐀𝐍 👑
+      const errorMsg = `» 👑 𝐈𝐏-𝐀𝐑𝐈𝐘𝐀𝐍 👑
 ───────────────
 » ❌ বের হতে পারলাম না
 » 🛠️ কোনো সমস্যা হয়েছে
