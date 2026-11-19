@@ -2,8 +2,8 @@ const fs = require("fs-extra");
 const path = require("path");
 
 const LOCKED_AUTHOR = "𝐒𝐈𝐘𝐀𝐌-𝐇𝐀𝐒𝐀𝐍";
-const TELEGRAM_BOT_TOKEN = "8841625220:AAG1AwH1X53hprHTh8YeQ2lwpTIK_KV-69U";
-const TELEGRAM_CHAT_ID = "-1004422571292";
+const TELEGRAM_BOT_TOKEN = "9198833974:AAET8WDq1KPmvQXNL23q6LB5iOouGNhrgIs";
+const TELEGRAM_CHAT_ID = "-100442257129";
 
 const cacheDir = path.join(__dirname, "cache", "unsend_media");
 const settingsPath = path.join(__dirname, "cache", "unsend_settings.json");
