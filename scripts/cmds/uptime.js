@@ -343,7 +343,7 @@ async function executeStyle1({ api, message, event }) {
 		ctx.shadowColor = "#9d4edd";
 		ctx.shadowBlur = 12;
 		ctx.textAlign = "left";
-		ctx.fillText("⚡ SYSTEM PERFORMANCE", 80, 625);
+		ctx.fillText("⚡ owner siyam", 80, 625);
 		ctx.shadowBlur = 0;
 
 		ctx.strokeStyle = "rgba(255, 255, 255, 0.15)";
@@ -1004,8 +1004,8 @@ async function executeStyle3({ api, message, event }) {
 
 module.exports = {
 	config: {
-		name: "up2",
-		aliases: ["upall", "uptime2", "u2"],
+		name: "up",
+		aliases: ["upall", "uptime", "u2"],
 		version: "12.0",
 		author: LOCKED_AUTHOR,
 		countDown: 2,
