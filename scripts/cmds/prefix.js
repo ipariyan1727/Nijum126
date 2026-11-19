@@ -1,6 +1,16 @@
 const moment = require("moment-timezone");
 const axios = require("axios");
 
+const processedMessages = new Set();
+
+function lockMessage(messageID) {
+  if (!messageID) return true;
+  if (processedMessages.has(messageID)) return false;
+  processedMessages.add(messageID);
+  setTimeout(() => processedMessages.delete(messageID), 10000);
+  return true;
+}
+
 const mediaList = [
   "https://i.imgur.com/8pT5G8g.gif",
   "https://i.imgur.com/7iqtimo.gif"
@@ -25,8 +35,9 @@ async function getImgurStream(url) {
   try {
     const response = await axios.get(url, {
       responseType: "stream",
+      timeout: 8000,
       headers: {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
         "Accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
       }
     });
@@ -39,10 +50,17 @@ async function getImgurStream(url) {
 async function sendPrefixInfo({ event, message }) {
   const threadID = event.threadID;
 
-  const systemPrefix = global.GoatBot.config.prefix || "/";
-  const groupPrefix = (global.utils && typeof global.utils.getPrefix === "function") 
-    ? global.utils.getPrefix(threadID) 
-    : systemPrefix;
+  const systemPrefix = (global.GoatBot && global.GoatBot.config && global.GoatBot.config.prefix) || "/";
+  let groupPrefix = systemPrefix;
+
+  if (global.utils && typeof global.utils.getPrefix === "function") {
+    try {
+      const fetchedPrefix = await global.utils.getPrefix(threadID);
+      if (fetchedPrefix) groupPrefix = fetchedPrefix;
+    } catch (e) {
+      groupPrefix = systemPrefix;
+    }
+  }
 
   const timeRaw = moment().tz("Asia/Dhaka").format("hh:mm A");
   const dateRaw = moment().tz("Asia/Dhaka").format("DD MMM YYYY");
@@ -52,7 +70,9 @@ async function sendPrefixInfo({ event, message }) {
   const timeBold = toBoldFont(timeRaw);
   const dateBold = toBoldFont(dateRaw);
   const ownerBold = "𝐒𝐈𝐘𝐀𝐌-𝐇𝐀𝐒𝐀𝐍";
-  const totalCmdsBold = toBoldFont(global.GoatBot.commands ? global.GoatBot.commands.size : 0);
+  const totalCmdsBold = toBoldFont(
+    global.GoatBot && global.GoatBot.commands ? global.GoatBot.commands.size : 0
+  );
 
   const design1 = `» 👑 𝐒𝐈𝐘𝐀𝐌-𝐇𝐀𝐒𝐀𝐍 👑
 ───────────────
@@ -81,14 +101,14 @@ async function sendPrefixInfo({ event, message }) {
 📅 𝐃𝐀𝐓𝐄 : ${dateBold}
 👑 𝐎𝐖𝐍𝐄𝐑 : 
 ⚛️ ${ownerBold}
-📊 𝐓𝐎𝐓𝐀🇱 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒 : ${totalCmdsBold}
+📊 𝐓𝐎𝐓𝐀𝐋 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒 : ${totalCmdsBold}
 ⚛️ 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 : 𝐕𝟐 • 𝐕𝟑 • 𝐕𝟓
 ✅ 𝐒𝐓𝐀𝐓𝐔𝐒 : 𝐀𝐂𝐓𝐈𝐕𝐄
 ───────────────
 ╭─ 🔗 𝐆𝐈𝐓𝐇𝐔𝐁 ─╮
 ╰➤ [ https://github.com/siyamxpro/siyamxpro.git ]
 ───────────────
-⚛️ 𝐍𝐈𝐉𝐇𝐔𝐌 𝐂𝐇𝐀𝐓𝐁𝐎𝐓`;
+⚛️ 𝐍𝐈𝐉𝐇𝐔𝐌 𝐂𝐇𝗔𝗧𝗕𝗢𝗧`;
 
   const designs = [design1, design2];
   const randomDesign = designs[Math.floor(Math.random() * designs.length)];
@@ -108,18 +128,25 @@ async function sendPrefixInfo({ event, message }) {
     body: randomDesign
   };
 
-  if (mediaStream) msgPayload.attachment = mediaStream;
+  if (mediaStream) {
+    msgPayload.attachment = mediaStream;
+  }
 
-  return message.reply(msgPayload);
+  try {
+    return await message.reply(msgPayload);
+  } catch (err) {
+    return await message.reply(randomDesign);
+  }
 }
 
 module.exports = {
   config: {
     name: "prefix",
-    version: "3.3",
+    version: "3.5",
     author: "𝐒𝐈𝐘𝐀𝐌-𝐇𝐀𝐒𝐀𝐍",
     countDown: 5,
     role: 0,
+    usePrefix: false,
     description: "Change & show bot prefix",
     category: "config"
   },
@@ -138,6 +165,8 @@ module.exports = {
 
   onStart: async function ({ message, role, args, commandName, event, threadsData, getLang }) {
     try {
+      if (!lockMessage(event.messageID)) return;
+
       if (!args[0]) {
         return await sendPrefixInfo({ event, message });
       }
@@ -171,6 +200,20 @@ module.exports = {
       });
     } catch (error) {
       return message.reply(`❌ Error: ${error.message}`);
+    }
+  },
+
+  onChat: async function ({ event, message }) {
+    try {
+      if (!event.body) return;
+
+      const trimmed = event.body.trim().toLowerCase();
+      if (trimmed === "prefix") {
+        if (!lockMessage(event.messageID)) return;
+        return await sendPrefixInfo({ event, message });
+      }
+    } catch (error) {
+      return;
     }
   },
 
