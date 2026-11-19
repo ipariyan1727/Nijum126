@@ -1,21 +1,57 @@
-@author NTKhang
-! The source code is written by NTKhang, please don't change the author's name everywhere (Please be a smart user and respect the author because they have been generous without asking for any benefits)
-! Official source code: https://github.com/ntkhang03/Goat-Bot-V2
-! If you do not download the source code from the above address, you are using an unknown version and at risk of having your account hacked
-Thank you for using
+© Copyright & Credits
 
+Project Owner & Maintainer: SIYAM
 
-English:
-! Please do not change the below code, it is very important for the project.
-It is my motivation to maintain and develop the project for free.
-! If you change it, you will be banned forever
-! Please be a smart user and respect the author because they have been generous without asking for any benefits
-Thank you for using
+GitHub: https://github.com/siyam-sys
 
+Official Modified Repository: https://github.com/siyam-sys/botV7
 
-Vietnamese:
-! Vui lòng không thay đổi mã bên dưới, nó rất quan trọng đối với dự án.
-Nó là động lực để tôi duy trì và phát triển dự án miễn phí.
-! Nếu thay đổi nó, bạn sẽ bị cấm vĩnh viễn
-! Hãy là một người dùng thông minh và tôn trọng tác giả vì họ đã cống hiền mà không đòi hỏi bất kỳ lợi ích nào
-Cảm ơn bạn đã sử dụng
+Original Author: NTKhang
+
+Original Source: https://github.com/ntkhang03/Goat-Bot-V2
+
+---
+
+🇧🇩 বাংলা
+
+এই প্রজেক্টটি SIYAM কর্তৃক কাস্টমাইজ, পরিবর্তন ও রক্ষণাবেক্ষণ করা হয়েছে।
+
+মূল সোর্স কোডের লেখক NTKhang। তাঁর অবদান ও পরিশ্রমের প্রতি আমরা শ্রদ্ধাশীল।
+
+অনুগ্রহ করে মূল লেখকের ক্রেডিট মুছে ফেলবেন না বা নিজের নামে দাবি করবেন না।
+
+এই প্রজেক্টের পরিবর্তিত সংস্করণ ও নিজস্ব সংযোজনের স্বত্ব SIYAM-এর।
+
+ধন্যবাদ আমাদের প্রজেক্ট ব্যবহার করার জন্য।
+
+---
+
+🇬🇧 English
+
+This project is customized, modified, and maintained by SIYAM.
+
+The original source code was written by NTKhang. We sincerely respect the original author's work and contributions.
+
+Please do not remove the original author's credits or claim their work as your own.
+
+The modifications and original additions made by SIYAM belong to SIYAM.
+
+Thank you for using this project.
+
+---
+
+🇻🇳 Vietnamese
+
+Dự án này được tùy chỉnh, chỉnh sửa và bảo trì bởi SIYAM.
+
+Mã nguồn gốc được viết bởi NTKhang. Chúng tôi luôn tôn trọng công sức và những đóng góp của tác giả gốc.
+
+Vui lòng không xóa thông tin ghi công của tác giả gốc hoặc nhận công trình của họ là của riêng mình.
+
+Các phần chỉnh sửa và bổ sung do SIYAM thực hiện thuộc về SIYAM.
+
+Cảm ơn bạn đã sử dụng dự án này.
+
+---
+
+© SIYAM | All Rights Reserved for Original Modifications.
