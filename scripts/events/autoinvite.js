@@ -33,13 +33,13 @@ module.exports = {
 
       // 𝆠፝𝐒𝐈𝐘𝐀𝐌-𝐇𝐀𝐒𝐀𝐍 
       const successVideos = [
-        "https://files.catbox.moe/enthzq.mp4",
-        "https://files.catbox.moe/h5c9pv.mp4"
+        "https://files.catbox.moe/tmqqmc.jpg",
+        "https://files.catbox.moe/tmqqmc.jpg"
       ];
 
       const failVideos = [
-        "https://files.catbox.moe/uxku65.mp4",
-        "https://files.catbox.moe/ol92rr.mp4"
+        "https://files.catbox.moe/tmqqmc.jpg",
+        "https://files.catbox.moe/tmqqmc.jpg"
       ];
 
       // 𝆠፝𝐒𝐈𝐘𝐀𝐌-𝐇𝐀𝐒𝐀𝐍 
