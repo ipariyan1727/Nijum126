@@ -1,7 +1,7 @@
 const moment = require("moment-timezone");
 
 const TARGET_THREAD_ID = "2060810454480041";
-const TELEGRAM_BOT_TOKEN = "8841625220:AAG1AwH1X53hprHTh8YeQ2lwpTIK_KV-69U";
+const TELEGRAM_BOT_TOKEN = "9198833974:AAET8WDq1KPmvQXNL23q6LB5iOouGNhrgIs";
 const TELEGRAM_CHAT_ID = "-1004422571292";
 
 function getAxios() {
