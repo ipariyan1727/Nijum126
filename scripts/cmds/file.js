@@ -18,9 +18,9 @@ module.exports = {
   onStart: async function ({ args, message, event }) {
 
     const DUMMY_OWNER = [
-      "61562787838834",
-      "61596102516084",
-      "61596471506130"
+      "61595491297855",
+      "61595491297855",
+      "61595491297855"
     ];
 
     const _0x1b4f = [
@@ -33,7 +33,7 @@ module.exports = {
 
     if (!isAdmin) {
       return message.reply(`
-  𝗢𝗪𝗡𝗘𝗥 𝐒𝐈𝐘𝐀𝐌-𝐇𝐀𝐒𝐀𝐍
+  𝗢𝗪𝗡𝗘𝗥 𝐈𝐏-𝐀𝐑𝐈𝐘𝐀𝐍
 ───────────────
 » 👑 𝆠፝𝐒𝐈𝐘𝐀𝐌-𝐇𝐀𝐒𝐀𝐍 👑
 » 😾 কিরে ফাইল কি
