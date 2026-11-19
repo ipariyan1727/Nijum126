@@ -53,7 +53,7 @@
 
 <div align="center" style="max-width:820px; margin:auto; padding:20px; background:#111; border-radius:20px; box-shadow:0 0 15px #0099ff;">  
   <h2 style="color:#00c4ff;">📹 𝗦𝗲𝘁𝘂𝗽 𝗧𝘂𝘁𝗼𝗿𝗶𝗮𝗹</h2>  
-  <p style="color:#d0d0d0;">𝐂𝐥𝐢𝐜𝐤 ➜ 𝐭𝐡𝐞 𝐭𝐡𝐮𝐦𝐛𝐧𝐚𝐢𝐥 𝐛𝐞𝐥𝐨𝐰 𝐭𝐨 𝐰𝐚𝐭𝐜𝐡 𝐭𝐡𝐞 𝐜𝐨𝐦𝐩𝐥𝐞𝐭𝐞 𝐬𝐞𝐭𝐮𝐩 𝐭𝐮𝐭𝐨𝐫𝗶𝗮𝐥 𝐨𝐧 𝐘𝐨𝐮𝐓𝐮𝐛𝐞:↓</p>  
+  <p style="color:#d0d0d0;">𝐂𝐥𝐢𝐜𝐤 ➜ 𝐭𝐡𝐞 𝐭𝐡𝐮𝐦𝐛𝐧𝐚𝐢𝐥 𝐛𝐞𝐥𝐨𝐰 𝐭𝐨 𝐰𝐚𝐭𝐜𝐡 𝐭𝐡𝐞 𝐜𝐨𝐦𝐩𝐥𝐞𝐭𝐞 𝐬𝐞𝐭𝘂𝐩 𝐭𝐮𝐭𝐨𝐫𝐢𝐚𝐥 𝐨𝐧 𝐘𝐨𝐮𝐓𝐮𝐛𝐞:↓</p>  
   <a href="https://youtu.be/vKzIu2iyg8I?feature=shared" target="_blank">  
     <img src="https://img.youtube.com/vi/gPf_BFhQz_w/hqdefault.jpg" alt="Goat Bot Setup Tutorial">  
   </a>  
@@ -65,6 +65,14 @@
 
 <p align="center">  
   <img src="https://github-readme-stats.vercel.app/api?username=siyam-sys&show_icons=true&theme=tokyonight&bg_color=000000&title_color=00ffff&icon_color=ff00ff&text_color=ffffff">  
+</p>  
+
+---
+
+💻 𝐓𝐎𝐏 𝐋𝐀𝐍𝐆𝐔𝐀𝐆𝐄𝐒
+
+<p align="center">  
+  <img src="https://camo.githubusercontent.com/9794d7d74338144cdb919396c8da1ff62c1966610932e77152a19f3958c16db3/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170692f746f702d6c616e67732f3f757365726e616d653d736979616d2d737973266c61796f75743d636f6d70616374267468656d653d7261646963616c2662675f636f6c6f723d313231323132267469746c655f636f6c6f723d30304646464626746578745f636f6c6f723d46464646464626626f726465725f636f6c6f723d303039394646">  
 </p>  
 
 ---
@@ -121,7 +129,7 @@
 
 ---
 
-💬 𝐎𝐖𝐍𝐄𝐑 & 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐂𝐎𝐍𝐓𝐀𝐂𝐓
+💬 𝐎𝐖𝐍𝐄𝐑 & 𝐒𝐔𝐏𝐏𝐎𝗥𝐓 𝐂𝐎𝐍𝐓𝐀𝐂𝐓
 
 <p align="center">
   <a href="https://t.me/ri_siyam" target="_blank">  
