@@ -1,1 +1,19 @@
+🔐 FACEBOOK LOGIN STATE
 
+এই ফাইলের ভিতরে আপনার Facebook অ্যাকাউন্টের Login State / AppState বসান।
+
+📌 কীভাবে করবেন?
+
+1. প্রথমে আপনার Facebook অ্যাকাউন্টের Login State সংগ্রহ করুন।
+2. সম্পূর্ণ Login State কপি করুন।
+3. এই "account.txt" ফাইলের ভিতরে পেস্ট করুন।
+4. ফাইলটি Save করুন।
+
+⚠️ সতর্কতা:
+
+- এখানে Facebook Login State ছাড়া অন্য কিছু লিখবেন না।
+- আপনার Login State কাউকে শেয়ার করবেন না।
+- এটি আপনার Facebook অ্যাকাউন্টের গোপন তথ্য।
+- ভুল বা মেয়াদোত্তীর্ণ Login State হলে Bot কাজ নাও করতে পারে।
+
+❌ DEMO TEXT — এটি আসল Login State নয়।
