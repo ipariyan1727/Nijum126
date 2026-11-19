@@ -1,7 +1,7 @@
 module.exports = {
   config: {
-    name: "up3",
-    aliases: ["upt3"],
+    name: "up2",
+    aliases: ["upt2"],
     version: "1.7",
     author: "𝆠፝𝐒𝐈𝐘𝐀𝐌-𝐇𝐀𝐒𝐀𝐍", //𝐍𝐈𝐉𝐇𝐔𝐌-𝐂𝐇𝐀𝐓-𝐁𝐎𝐓
     role: 0,
