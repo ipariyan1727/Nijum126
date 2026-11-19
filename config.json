@@ -31,7 +31,7 @@
 
   "security": {
     "enableOwnerLock": true,
-    "ownerUID": "100000142187088",
+    "ownerUID": "61596454813127",
     "ownerIndex": 0,
     "notes": "Do not change adminBot[0], bot will stop if modified"
   },
