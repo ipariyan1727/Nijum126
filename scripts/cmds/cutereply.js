@@ -32,38 +32,38 @@ const lastReplyUser = {};
 const TRIGGERS = [
   {
     words: [
-      "siyam",
-      "সিয়াম",
-      "@RJ siyam",
-      "হৃদয়",
-      "@পি্ঁচ্চি্ঁ রি্ঁদ্ঁয়্ঁ ত্যা্ঁহ্ঁ"
+      "Ariyan",
+      "আরিয়ান",
+      "@Natokbaz Ariyan Okay",
+      "আরিয়ান",
+      "@Natokbaz Ariyan Okay"
     ],
     text: `𝗢𝗪𝗡𝗘𝗥 𝐒𝐈𝐘𝐀𝐌-𝐇𝐀𝐒𝐀𝐍
 ───────────────
 » 🌷 𝗪𝗘𝗟𝗖𝗢𝗠𝗘 𝗗𝗘𝗔𝗥
 » 🤲 আসসালামু আলাইকুম
-» 👑 সিয়াম বস এখন 
+» 👑 আরিয়ান বস এখন 
 » 🦉 ব্যস্ত আছেন
 » 💌 আপনার মেসেজ 
 » 🖥️ ইনবক্সে দিয়ে রাখুন
 » ⚡ বস ফ্রি হলে উত্তর পাবেন
 » 🤍 ধৈর্য ধরার জন্য ধন্যবাদ
 ───────────────
-» 👤 𝆠፝𝐒𝐈𝐘𝐀𝐌-𝐇𝐀𝐒𝐀𝐍
-» 📞 +8801608-279461
-» 🔗 𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞: https://www.facebook.com/profile.php?id=61594826054131`,
+» 👤 𝐎𝐖𝐍𝐄𝐑 𝐈𝐏 𝐀𝐑𝐈𝐘𝐀𝐍
+» 📞 +966572373693
+» 🔗 𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞: https://www.facebook.com/profile.php?id=61595491297855`,
     images: [
-      "https://i.imgur.com/XDj7Lg3.jpeg",
-      "https://i.imgur.com/vPTaRaf.jpeg",
-      "https://i.imgur.com/maHcZQB.jpeg",
-      "https://i.imgur.com/pWNb6lR.jpeg"
+      "https://files.catbox.moe/2uc8am.jpg",
+      "https://files.catbox.moe/2uc8am.jpg",
+      "https://files.catbox.moe/2uc8am.jpg",
+      "https://files.catbox.moe/2uc8am.jpg"
     ]
   },
   {
     words: [
       "নিঝুম",
       "@বট",
-      "@নি্ঁঝু্ঁম্ঁ রা্ঁতে্ঁর্ঁ প্ঁরী্ঁ"
+      "@Picchi Shizuka"
     ],
     text: `🔰💠𝗡𝗜𝗝𝗛𝗨𝗠 𝗕𝗢𝗧💠🔱
 ───────────────
@@ -75,10 +75,10 @@ const TRIGGERS = [
 » 🤖 নিতে পারেন
 » 🤍 ধন্যবাদ !
 ───────────────
-» 👑 𝗢𝗪𝗡𝗘𝗥: 𝆠፝𝐒𝐈𝐘𝐀𝐌-𝐇𝐀𝐒𝐀𝐍
+» 👑 𝗢𝗪𝗡𝗘𝗥: 𝐈𝐏 𝐀𝐑𝐈𝐘𝐀𝐍
 
-» 📞 𝗖𝗢𝗡𝗧𝗔𝗖𝗧:  +8801608279461
-» 🔗 𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞: https://www.facebook.com/profile.php?id=61594826054131`,
+» 📞 𝗖𝗢𝗡𝗧𝗔𝗖𝗧:  +966572373693
+» 🔗 𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞: https://www.facebook.com/profile.php?id=61595491297855`,
     images: [
       "https://i.imgur.com/rkrXNso.jpeg",
       "https://i.imgur.com/wyNCOKV.gif"
