@@ -1,117 +1,69 @@
-𝐒𝐈𝐘𝐀𝐌-𝐇𝐀𝐒𝐀𝐍 V2
-STEP-BY-STEP INSTALL GUIDE
+SIYAM BOT V7 – CUSTOM LICENSE
 
-এই গাইডে 𝐒𝐈𝐘𝐀𝐌-𝐇𝐀𝐒𝐀𝐍 V2 সেটআপ, Render-এ ডিপ্লয় এবং UptimeRobot দিয়ে মনিটর করার সম্পূর্ণ নিয়ম দেখানো হয়েছে।
+Copyright (c) 2026, SIYAM (siyam-sys)
 
-১) Github Repository Import
+Project: SIYAM BOT V7
+Repository: https://github.com/siyam-sys/botV7
+Project Owner: SIYAM
+Original Author: NTKhang (NTKhang03)
+Original Repository: https://github.com/ntkhang03/Goat-Bot-V2
 
-১. Github-এ লগইন করুন।
-২. New Repository → Import Repository নির্বাচন করুন।
-৩. Repository Link:
-"https://github.com/mdakashproject/GOAT-BOT-AKASH-V2.git"
-৪. Private Repository নির্বাচন করুন।
-৫. Begin Import-এ ক্লিক করুন।
+1. Copyright Notice
 
-নোট: আপনার নিজস্ব Private Repository তৈরি হয়ে যাবে।
+Copyright (c) 2026, SIYAM (siyam-sys).
 
-২) Config.json Setup
+All rights reserved for original modifications, custom features, additions, and independently created materials included in SIYAM BOT V7, to the extent permitted by applicable law.
 
-config.json ফাইলটি এডিট করে নিচের তথ্য বসান:
+2. Permission
 
-{
-  "nickNameBot": "𝆠፝𝐍𝐈𝐉𝐇𝐔𝐌-𝐂𝐇𝐀𝐓-𝐁𝐎𝐓",
-  "adminBot": [
-    "100078049308655",
-    "61577213967981"
-  ],
-  "uid": "YOUR_FB_UID"
-}
+Permission is granted to view and use this project for personal and educational purposes, subject to the conditions of this license and the applicable licenses of third-party components.
 
-nickNameBot → বটের নাম
-adminBot → অ্যাডমিনদের Facebook ID
-uid → আপনার Facebook UID
+3. Restrictions
 
-৩) Facebook Cookie Export
+Without prior written permission from SIYAM, you may not:
 
-১. C3C FBState Utility Extension ইনস্টল করুন।
-২. বট চালানোর Facebook Account-এ লগইন করুন।
-৩. Extension দিয়ে JSON Cookie Export করুন।
-৪. Copy করা JSON টি account.txt-এ Paste করুন।
+- Redistribute modified versions of SIYAM's original contributions.
+- Claim SIYAM's original modifications or additions as your own.
+- Remove or alter SIYAM's copyright notices.
+- Use SIYAM's original branding, identity, or project name to misrepresent the source of your work.
+- Sell or commercially redistribute SIYAM's original contributions without authorization.
 
-নোট: account.txt কখনো কারও সাথে শেয়ার করবেন না।
+4. Original Author Credits
 
-৪) Deploy on Render
+The original source code was created by NTKhang (NTKhang03).
 
-১. Render.com-এ লগইন করুন।
-২. New Web Service → Connect Github Repo নির্বাচন করুন।
-৩. প্রয়োজনে .env Variables সেট করুন।
-৪. Deploy-এ ক্লিক করুন।
-৫. Deploy সম্পন্ন হলে Render URL কপি করুন।
+Original Repository:
+https://github.com/ntkhang03/Goat-Bot-V2
 
-৫) Monitor with UptimeRobot
+All original code remains subject to its original applicable license and copyright terms.
 
-১. UptimeRobot.com-এ লগইন করুন।
-২. Add New Monitor → HTTP(S) নির্বাচন করুন।
-৩. Render URL Paste করুন।
-৪. Check Interval (যেমন 5 Minutes) সেট করুন।
-৫. Create Monitor-এ ক্লিক করুন।
+Nothing in this license transfers ownership of NTKhang's original work to SIYAM.
 
-নোট: আপনার বট 24/7 চালু থাকবে এবং UptimeRobot দ্বারা মনিটর হবে।
+5. Third-Party Components
 
-অভিনন্দন!
-আপনি সফলভাবে 𝐒𝐈𝐘𝐌-𝐇𝐀𝐒𝐀𝐍 V2 সেটআপ করেছেন। আপনার Bot এখন Running এবং Admin ID সক্রিয়।
+Third-party libraries, dependencies, APIs, and other components remain subject to their respective licenses and terms.
 
-━━━━━━━━━━━━━━━━━━━━
+6. No Warranty
 
-𝐒𝐈𝐘𝐀𝐌-𝐇𝐀𝐒𝐀𝐍 V2
-STEP-BY-STEP INSTALL GUIDE
+This project is provided "AS IS", without warranty of any kind, express or implied.
 
-SET UP 𝐒𝐈𝐘𝐀𝐌-𝐇𝐀𝐒𝐀𝐍 V2, DEPLOY ON RENDER & MONITOR WITH UPTIMEROBOT
+The project owner shall not be held liable for any damages, account restrictions, data loss, or other issues arising from the use of this software, to the extent permitted by applicable law.
 
-1. IMPORT REPOSITORY
-• Log in to Github
-• Open New Repository → Import Repository
-• Repository:
-"https://github.com/mdakashproject/GOAT-BOT-AKASH-V2.git"
-• Select Private Repository
-• Click Begin Import
+7. License Changes
 
-2. CONFIGURE CONFIG.JSON
+SIYAM reserves the right to update the licensing terms for its own original contributions in future releases, subject to applicable law and existing third-party licenses.
 
-{
-  "nickNameBot": "𝆠፝𝐍𝐈𝐉𝐇𝐔𝐌-𝐂𝐇𝐀𝐓-𝐁𝐎𝐓",
-  "adminBot": [
-    "100078049308655",
-    "61577213967981"
-    ],
-  "uid": "YOUR_FB_UID"
-}
+8. Contact & Official Repository
 
-nickNameBot → Bot Name
-adminBot → Admin Facebook IDs
-uid → Your Facebook UID
+GitHub: https://github.com/siyam-sys
 
-3. EXPORT FACEBOOK COOKIE
-• Install C3C FBState Utility Extension
-• Log in to your Facebook Account
-• Export JSON Cookie
-• Paste it into account.txt
+Official Project:
+https://github.com/siyam-sys/botV7
 
-Keep account.txt private.
+---
 
-4. DEPLOY ON RENDER
-• Log in to Render.com
-• New Web Service → Connect Github Repo
-• Set .env Variables if needed
-• Click Deploy
-• Copy your Render URL
+© 2026 SIYAM | SIYAM BOT V7
 
-5. MONITOR WITH UPTIMEROBOT
-• Log in to UptimeRobot.com
-• Add New Monitor → HTTP(S)
-• Paste Render URL
-• Set Check Interval (5 Minutes)
-• Click Create Monitor
+All rights reserved for original contributions by SIYAM.
 
-CONGRATULATIONS!
-𝐒𝐈𝐘𝐀𝐌-𝐇𝐀𝐒𝐀𝐍 V2-V5 is now successfully installed and running.
+Original source code credit belongs to NTKhang (NTKhang03).
