@@ -515,8 +515,8 @@ async function runDesign3({ api, message, event }) {
 		userName = "Facebook User";
 	}
 
-	const botName = "SIYAM-BOT";
-	const ownerName = "SIYAM HASAN";
+	const botName = "NIJHUM-BOT";
+	const ownerName = "IP ARIYAN";
 
 	const width = 900;
 	const height = 550;
