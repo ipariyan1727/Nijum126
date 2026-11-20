@@ -120,7 +120,7 @@ async function executeStyle1({ api, message, event }) {
 		ctx.fillStyle = "#ffffff";
 		ctx.shadowColor = "#00d2ff";
 		ctx.shadowBlur = 18;
-		ctx.fillText("👑 𝐒𝐈𝐘𝐀𝐌-𝐇𝐀𝐒𝐀𝐍 👑", 85, 110);
+		ctx.fillText("👑 𝐈𝐏-𝐀𝐑𝐈𝐘𝐀𝐍 👑", 85, 110);
 
 		ctx.shadowBlur = 0;
 		ctx.font = "bold 20px 'Segoe UI', Arial, sans-serif";
@@ -343,7 +343,7 @@ async function executeStyle1({ api, message, event }) {
 		ctx.shadowColor = "#9d4edd";
 		ctx.shadowBlur = 12;
 		ctx.textAlign = "left";
-		ctx.fillText("⚡ owner siyam", 80, 625);
+		ctx.fillText("⚡ owner Ip Ariyan", 80, 625);
 		ctx.shadowBlur = 0;
 
 		ctx.strokeStyle = "rgba(255, 255, 255, 0.15)";
@@ -511,7 +511,7 @@ async function executeStyle1({ api, message, event }) {
 		ctx.shadowColor = "#00d2ff";
 		ctx.shadowBlur = 12;
 		ctx.textAlign = "center";
-		ctx.fillText("👑 SIYAM-HASAN CHAT BOT  ⚡  LIGHTING SYSTEM • LIVE MONITOR 👑", width / 2, 1018);
+		ctx.fillText("👑 IP-ARIYAN CHAT BOT  ⚡  LIGHTING SYSTEM • LIVE MONITOR 👑", width / 2, 1018);
 		ctx.restore();
 
 		const buffer = canvas.toBuffer("image/png");
