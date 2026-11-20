@@ -34,11 +34,11 @@ const TRIGGERS = [
     words: [
       "Ariyan",
       "আরিয়ান",
-      "@Natokbaz Ariyan Okay",
+      "@Maria Jose Gonzales",
       "আরিয়ান",
-      "@Natokbaz Ariyan Okay"
+      "@Maria Jose Gonzales"
     ],
-    text: `𝗢𝗪𝗡𝗘𝗥 𝐒𝐈𝐘𝐀𝐌-𝐇𝐀𝐒𝐀𝐍
+    text: `𝗢𝗪𝗡𝗘𝗥 𝗜𝗣-𝗔𝗥𝗜𝗬𝗔𝗡
 ───────────────
 » 🌷 𝗪𝗘𝗟𝗖𝗢𝗠𝗘 𝗗𝗘𝗔𝗥
 » 🤲 আসসালামু আলাইকুম
@@ -51,7 +51,7 @@ const TRIGGERS = [
 ───────────────
 » 👤 𝐎𝐖𝐍𝐄𝐑 𝐈𝐏 𝐀𝐑𝐈𝐘𝐀𝐍
 » 📞 +966572373693
-» 🔗 𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞: https://www.facebook.com/profile.php?id=61595491297855`,
+» 🔗 𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞: https://www.facebook.com/5G.AR1Y4N`,
     images: [
       "https://files.catbox.moe/2uc8am.jpg",
       "https://files.catbox.moe/2uc8am.jpg",
@@ -78,7 +78,7 @@ const TRIGGERS = [
 » 👑 𝗢𝗪𝗡𝗘𝗥: 𝐈𝐏 𝐀𝐑𝐈𝐘𝐀𝐍
 
 » 📞 𝗖𝗢𝗡𝗧𝗔𝗖𝗧:  +966572373693
-» 🔗 𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞: https://www.facebook.com/profile.php?id=61595491297855`,
+» 🔗 𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞: https://www.facebook.com/5G.AR1Y4N`,
     images: [
       "https://i.imgur.com/rkrXNso.jpeg",
       "https://i.imgur.com/wyNCOKV.gif"
