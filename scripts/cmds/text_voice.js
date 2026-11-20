@@ -107,6 +107,7 @@ module.exports = {
     };  
 
     const multiVoiceMap = {
+      "Ariyan":"https://files.catbox.moe/fbu4us.mp3",
       "bot": "https://files.catbox.moe/gzq54t.mp3",
       "জান": "https://files.catbox.moe/78r669.mp4",
       "baby": "https://files.catbox.moe/gzq54t.mp3",
