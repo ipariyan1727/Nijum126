@@ -33,7 +33,7 @@ module.exports = {
 
       // 𝆠፝𝐒𝐈𝐘𝐀𝐌-𝐇𝐀𝐒𝐀𝐍 
       const successVideos = [
-        "https://files.catbox.moe/3nki7u.jpg",
+        "https://files.catbox.moe/xi18im.jpg",
         "https://files.catbox.moe/xi18im.jpg"
       ];
 
