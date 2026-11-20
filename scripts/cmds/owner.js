@@ -16,7 +16,7 @@ async function safeStream(url) {
 // এখানে আপনি ২টি ভিডিও, ২টি পিক, ২টি GIF অথবা ১টি পিক ও ১টি ভিডিও মিক্স করে বসাতে পারবেন
 const mediaLinks = [
   "https://files.catbox.moe/3nki7u.jpg",
-  "https://files.catbox.moe/xi18im.jpg"
+  "https://files.catbox.moe/3nki7u.jpg"
 ];
 
 const countFile = path.join(__dirname, "owner_media_count.json");
