@@ -18,8 +18,8 @@ const backgroundImages = [
 ];
 
 const botJoinImages = [
-    "https://i.imgur.com/y5a5BBP.jpeg",
-    "https://i.imgur.com/586Aq55.jpeg"
+    "https://files.catbox.moe/ndkw9c.jpg",
+    "https://files.catbox.moe/ndkw9c.jpg"
 ];
 
 const backgroundCache = new Map();
@@ -192,7 +192,7 @@ module.exports = {
                 }
 
                 const msgPayload = {
-                    body: `✨ 𝗕𝗢𝗧 𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗘𝗗 ✨\n──────────────────\n👋 হ্যালো BOT EXPOSED 𝐒𝐈𝐘𝐀𝐌-𝐇𝐀𝐒𝐀𝐍 \n\n🤖 আমি 𝗡𝗜𝗝𝗛𝗨𝗠 𝗕𝗢𝗧\n❤️ আমাকে গ্রুপে Add করার জন্য ধন্যবাদ\n\n──────────────────\n📌 𝗚𝗥𝗢𝗨𝗣 𝗜𝗡𝗙𝗢\n» 👥 𝗠𝗘𝗠𝗕𝗘𝗥𝗦 : ${memberCount}\n» 🤖 𝗣𝗥𝗘𝗙𝗜𝗫 : { , }\n\n──────────────────\n📖 𝗚𝗘𝗧 𝗦𝗧𝗔𝗥𝗧𝗘𝗗\n» /help — সকল কমান্ড দেখুন\n» call আপনার সমস্যা লেখুন\n» 📞 +𝟴𝟴𝟬𝟭𝟴𝟵𝟭𝟯𝟴𝟭𝟱𝟳\n─────────────────\n👑 𝗢𝗪𝗡𝗘𝗥 : 𝆠፝𝐒𝐈𝐘𝐀𝐌-𝐇𝐀𝐒𝐀𝐍\n\n🌸 সবাইকে স্বাগতম`
+                    body: `✨ 𝗕𝗢𝗧 𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗘𝗗 ✨\n──────────────────\n👋 হ্যালো BOT EXPOSED 𝐈𝐏-𝐀𝐑𝐈𝐘𝐀𝐍 \n\n🤖 আমি 𝗡𝗜𝗝𝗛𝗨𝗠 𝗕𝗢𝗧\n❤️ আমাকে গ্রুপে Add করার জন্য ধন্যবাদ\n\n──────────────────\n📌 𝗚𝗥𝗢𝗨𝗣 𝗜𝗡𝗙𝗢\n» 👥 𝗠𝗘𝗠𝗕𝗘𝗥𝗦 : ${memberCount}\n» 🤖 𝗣𝗥𝗘𝗙𝗜𝗫 : { , }\n\n──────────────────\n📖 𝗚𝗘𝗧 𝗦𝗧𝗔𝗥𝗧𝗘𝗗\n» /help — সকল কমান্ড দেখুন\n» call আপনার সমস্যা লেখুন\n» 📞 +𝟵𝟲𝟲𝟱𝟳𝟮𝟯𝟳𝟯𝟲𝟵𝟯\n─────────────────\n👑 𝗢𝗪𝗡𝗘𝗥 : 𝆠፝𝐈𝐏-𝐀𝐑𝐈𝐘𝐀𝐍\n\n🌸 সবাইকে স্বাগতম`
                 };
 
                 if (imageStream) {
