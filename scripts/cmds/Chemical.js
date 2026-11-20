@@ -204,7 +204,7 @@ module.exports = {
       ctx.shadowBlur = 0;
       ctx.fillStyle = "#ff0055";
       ctx.font = "bold 18px sans-serif";
-      ctx.fillText("─── 👑 OWNER: SIYAM-HASAN  |  🧚‍♀️ NIJHUM CHATBOT ───", width / 2, 940);
+      ctx.fillText("─── 👑 OWNER: IP-ARIYAN  |  🧚‍♀️ NIJHUM CHATBOT ───", width / 2, 940);
 
       // ফাইল সেভ ও সেন্ড করা
       const imgPath = path.join(__dirname, "cache", `wanted_${targetID}.png`);
@@ -212,7 +212,7 @@ module.exports = {
       const buffer = canvas.toBuffer("image/png");
       fs.writeFileSync(imgPath, buffer);
 
-      const msgText = `» 👑 𝗢𝗪𝗡𝗘𝗥 : 𝆠፝𝐒𝐈𝐘𝐀𝐌-𝐇𝐀𝐒𝐀𝐍
+      const msgText = `» 👑 𝗢𝗪𝗡𝗘𝗥 : 𝆠፝𝗜𝗣-𝗔𝗥𝗜𝗬𝗔𝗡
 ───────────────
 🚨 𝗪𝗔𝗡𝗧𝗘𝗗 𝗔𝗟𝗘𝗥𝗧 🚨
 ───────────────
@@ -221,7 +221,7 @@ module.exports = {
 💰 জরিমানা: ${formattedBounty}
 
 ⚠️ একে দেখলে দ্রুত 
-❎ সিয়াম ভাই কে খবর দিন!
+❎ আরিয়ান ভাই কে খবর দিন!
 ───────────────
 » 🧚‍♀️ 𝗡𝗜𝗝𝗛𝗨𝗠 𝗖𝗛𝗔𝗧𝗕𝗢𝗧`;
 
